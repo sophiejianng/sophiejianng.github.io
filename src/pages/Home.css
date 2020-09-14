@@ -1,0 +1,11 @@
+.Home {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 200px;
+    color: rgba(0,0,0,0.7);
+}
