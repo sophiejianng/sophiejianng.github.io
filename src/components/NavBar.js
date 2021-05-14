@@ -6,6 +6,7 @@ import About from "../pages/About";
 import Experience from "../pages/Experience";
 import resume from "../assets/resume.pdf";
 import logo from "../assets/logo.png";
+import logoHover from "../assets/logo_hover.png"
 import "./NavBar.css";
 
 function NavBar() {
@@ -42,6 +43,8 @@ function NavBar() {
                 });
                 setActive("homePage");
               }}
+              onMouseOver={e => (e.currentTarget.src = logoHover)}
+              onMouseLeave={e => (e.currentTarget.src = logo)}
             ></img>
           </NavLink>
           <NavbarToggler onClick={toggle} id="toggle-icon" />
