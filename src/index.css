@@ -8,11 +8,6 @@ body {
   background-color: #ffffff;
 }
 
-@font-face {
-  font-family: Lato;
-  src: local('Lato', url(./fonts/Lato-Regular.ttf) format('ttf'));
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
