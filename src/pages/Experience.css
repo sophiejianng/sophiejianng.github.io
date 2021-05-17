@@ -1,0 +1,67 @@
+.Experience {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 10%;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-bottom: 200px;
+}
+
+.experience-title {
+    color: rgba(0,0,0,0.6);
+    font-weight: 500;
+    font-size: 35px;
+    text-shadow: -1px 2px 4px rgba(255, 163, 81, 1);
+    margin-bottom: -10px;
+}
+
+.experience-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ExperienceCard {
+    margin-top: 50px;
+}
+
+.excard-skills {
+    display: flex;
+    display: row;
+    white-space: break-spaces;
+}
+
+.excard-skills span {
+    background-color: rgba(255, 163, 81, 1);
+}
+
+.skill-highlight {
+    font-size: 13px;
+    /* color:rgba(255, 163, 81, 1); */
+    background:rgba(255, 163, 81, 0.4);
+    margin-right: 7px;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 1450px) and (min-height: 900px) {
+    .Experience {
+        padding-top: 25%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Experience {
+        flex-direction: column;
+        padding-top: 30%;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .experience-title {
+    }
+
+    .ExperienceCard {
+        height: 100%;
+    }
+}

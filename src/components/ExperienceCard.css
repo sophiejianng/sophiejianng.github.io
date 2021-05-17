@@ -1,0 +1,94 @@
+.ExperienceCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px;
+    overflow: hidden;
+    /* border: 2px solid rgba(0, 0, 0, 0.1); */
+    border-radius: 2px;
+}
+
+.ExperienceCard:hover {
+    /* border: 2px solid rgba(255, 163, 81, 0.4) */
+}
+
+.excard-image-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px; 
+    margin-bottom: 25px;
+    margin-left: 25px;
+    border-radius: 500px;
+}
+
+.excard-image-container img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.excard-image-container img:hover {
+    /* height: 160px; */
+    /* width: 160px; */
+    box-shadow: 0px 0px 20px rgba(255, 163, 81, 0.6);
+}
+
+.excard-image-container:hover {
+    /* margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px; */
+}
+
+.excard-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.excard-company {
+    font-size: 30px;
+}
+
+.excard-position {
+    /* font-size: 18px; */
+}
+
+.experience-bullet {
+    margin-left: 0px;
+}
+
+@media only screen and (max-width: 900px) {
+    .ExperienceCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .excard-image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+        border-radius: 500px;
+    }
+
+    .excard-image-container img {
+        height: 135px;
+        width: 135px;
+    }
+
+    .excard-content {
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .excard-company {
+        font-size: 26px;
+    }
+}
