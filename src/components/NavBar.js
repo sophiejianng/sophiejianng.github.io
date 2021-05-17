@@ -26,6 +26,7 @@ function NavBar() {
     } else if (page === "experiencePage") {
       setExperiencePage("active");
     }
+    setIsOpen(false);
   };
 
   return (

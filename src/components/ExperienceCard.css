@@ -89,6 +89,7 @@
     }
 
     .excard-company {
+        align-items: center;
         font-size: 26px;
     }
 }

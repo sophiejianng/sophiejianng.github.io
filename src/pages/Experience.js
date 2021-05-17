@@ -48,7 +48,7 @@ function Experience() {
 
   const oscDescription = (
     <div>
-      ✏️ Internal Client support
+      ✏️ Internal Client Support
       <ul>
         <li>Provided technical support to over 600 users, troubleshooting hardware and software issues</li>
         <li>Contributed scripts to modify user database access rights and remotely monitor network activity</li>
