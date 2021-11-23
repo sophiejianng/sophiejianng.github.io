@@ -16,7 +16,7 @@ function About() {
           a little bit about me
         </div>
         <div className="about-blurb">
-          <p>I am currently a fourth year computer science student studying at the
+          <p>I am currently a fifth year computer science student studying at the
             <a
             href="https://uwaterloo.ca/"
             target="_blank"
