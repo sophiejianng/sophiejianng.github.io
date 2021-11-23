@@ -1,6 +1,7 @@
 import React from "react";
 import ExperienceCard from "../components/ExperienceCard";
 import "./Experience.css";
+import splunk_logo from "../assets/splunk.png";
 import autonomic_logo from "../assets/autonomic.jpeg";
 import ix_logo from "../assets/ix.jpg";
 import solium_logo from "../assets/solium.png";
@@ -8,10 +9,22 @@ import osc_logo from "../assets/osc.png";
 
 function Experience() {
 
+  const splunkSkills = ["Java", "PostgreSQL", "Pulsar"]
   const autonomicSkills = ["Java", "PostgreSQL", "Prometheus", "Grafana"]
   const ixSkills = ["Go", "Perl", "Prometheus"]
   const soliumSkills = ["Java", "SQL", "GWT", "React"]
   const oscSkills = ["Powershell"]
+
+  const splunkDescription = (
+    <div className="experience-description">
+    ✏️ Security Analytics Team
+    <ul>
+      <li>Engineered a completely new workflow that allows researchers to evaluate the efficacy of prospective threat detections on real-time customer data streams</li>
+      <li>Implemented RESTful API endpoints to create/remove threat detections, integrating with a CI/CD pipeline to automate detection deployments and enable rapid experimentation</li>
+      <li>Created architecture proposals, investigated proofs of concepts, and led discussions to map out the roadmap of new detection features</li>
+    </ul>
+  </div>
+  )
 
   const autonomicDescription = (
     <div className="experience-description">
@@ -63,9 +76,18 @@ function Experience() {
         learning experiences ✌️
       </div>
       <div className="experience-cards-container">
+      <ExperienceCard
+            company="Splunk"
+            position="👨‍💻  Software Engineering Intern"
+            time="🗓 Sept - Present"
+            description={splunkDescription}
+            skills={splunkSkills}
+            logo={splunk_logo}
+            link="https://www.splunk.com/">
+          </ExperienceCard>
         <ExperienceCard
             company="Autonomic"
-            position="👨‍💻  Software Engineer Intern"
+            position="👨‍💻  Software Engineering Intern"
             time="🗓 Jan - Apr 2021"
             description={autonomicDescription}
             skills={autonomicSkills}
@@ -74,7 +96,7 @@ function Experience() {
           </ExperienceCard>
           <ExperienceCard
             company="Index Exchange"
-            position="👨‍💻 Software Engineer Intern"
+            position="👨‍💻 Software Engineering Intern"
             time="🗓 Jan - Apr 2020"
             description={ixDescription}
             skills={ixSkills}

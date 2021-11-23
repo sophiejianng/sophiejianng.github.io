@@ -20,7 +20,7 @@ class ExperienceData {
 export const Experiences = [
     new ExperienceData(
         "Autonomic",
-        "Software Engineer Intern",
+        "Software Engineering Intern",
         (
             <div>
                 description goes here 
@@ -31,7 +31,7 @@ export const Experiences = [
     ),
     new ExperienceData(
         "Index Exchange",
-        "Software Engineer Intern",
+        "Software Engineering Intern",
         (
             <div>
                 description goes here 

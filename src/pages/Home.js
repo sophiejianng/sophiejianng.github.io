@@ -21,7 +21,7 @@ function Home() {
             </span>   
         </div>
         <div className="home-blurb">
-          I'm Sophie! I'm currently a fourth year computer science student at the University of Waterloo, interested in all things software and always on the lookout for new learning opportunities. Right now, I am on the search for <span className="bold-text">Fall 2021 internship</span> opportunities!
+          I'm Sophie! I'm currently a fifth year computer science student at the University of Waterloo, interested in all things software and always on the lookout for new learning opportunities. Right now, I am on the search for <span className="bold-text">New Grad Software Engineering</span> opportunities!
         </div>
         <div className="home-icons">
           <a href="mailto:ss3jiang@edu.uwaterloo.ca">
